@@ -7,10 +7,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
-
-
 body {
     font-size: 16px;
     height: 100%;
@@ -46,7 +42,19 @@ input[type=text], select {
     box-shadow: -5px 5px 5px #53000e;
     width: 400px;
     border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 30%;
+    margin: auto;
+}
+
+#submit{
+  background-color: #e75480;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 8px 8px;
+  width: 100px;
+  color: #e8eddf;
+  font-family: 'Sniglet', cursive;
+
 }
